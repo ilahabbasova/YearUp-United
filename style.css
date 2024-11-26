@@ -1,0 +1,16 @@
+.container {
+    text-align: left; /* Align text to the left for better control */
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically center the items */
+    justify-content: center; /* Optional: Center the content within the container */
+}
+
+.text {
+    margin-right: 20px; /* Space between text and image */
+    max-width: 60%; /* Optional: Limit the width of text so it doesn't overflow */
+}
+
+.image img {
+    width: 300px; /* Fixed size for the image */
+    height: 300px; /* Fixed size for the image */
+}
